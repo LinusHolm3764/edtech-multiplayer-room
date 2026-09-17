@@ -1,0 +1,16 @@
+{
+  "name": "edtech-multiplayer-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "example": "tsx src/room_workflow.ts",
+    "test": "tsx src/room_workflow.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  }
+}
